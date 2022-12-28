@@ -41,7 +41,7 @@ const useSelectMonedas = (titulo, opciones) => {
         </>
     )
 
-  return[ SelectMonedas ]
+  return[ state, SelectMonedas ]
 }
 
 export default useSelectMonedas
